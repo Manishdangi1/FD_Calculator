@@ -68,7 +68,8 @@ const FixedDepositCalculator = () => {
       
       setMaturityAmount(A.toFixed(2));
       setIsCalculated(true);
-    } catch (error) {
+    } catch  {
+       
       setMaturityAmount("Error in calculation");
     }
   };

@@ -1,7 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-// import App from "./App";
-import FixedDepositCalculator from "./components/FdCalculator";
+import React from 'react';
+import './App.css'
+import FixedDepositCalculator from '../components/fdCalculator';
 
 function App() {
   return (
@@ -11,7 +10,4 @@ function App() {
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"))
-
-root.render(<App />)
-export default App;
+export default App
