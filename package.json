@@ -2,8 +2,7 @@
   "name": "fd-calculator",
   "version": "1.0.0",
   "scripts": {
-    "build": "parcel src/index.html",
-    "start": "parcel src/index.html",
+    "build": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
      "build:css": "tailwindcss -i ./src/index.css -o ./dist/output.css --watch"
   },
